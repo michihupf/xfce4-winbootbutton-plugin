@@ -20,6 +20,13 @@ Copy the `libwinbootbutton.so` to the first folder
 Next copy `winbootbutton.desktop` into the second folder
 
     $ cp winbootbutton.desktop /usr/share/xfce4/panel/plugins/
+    
+To make `grub-reboot` run as the root user with `sudo` from a C system call you'll need 
+to add something to your `sudoers` file so `grub-reboot` can be run without a password.
+I am not sure if this is the best way to do this but it works for me:
+
+    ## Allows user '<your-username>' to use `sudo grub-reboot` without a password
+    <your-username> ALL=(root) NOPASSWD: /usr/bin/grub-reboot
 
 Add the plugin like you would any other plugin and that's it.
 
