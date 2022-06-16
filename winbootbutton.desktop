@@ -1,0 +1,10 @@
+[Xfce Panel]
+Type=X-XFCE-PanelPlugin
+Encoding=UTF-8
+Name=Xfce4 Windows Boot Button
+Comment=A neat way to boot to windows - with just one click.
+Icon=application-x-ms-dos-executable
+X-XFCE-Module=winbootbutton
+X-XFCE-Internal=FALSE
+X-XFCE-Unique=true
+X-XFCE-API=2.0
