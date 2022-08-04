@@ -1,3 +1,16 @@
 compile_commands.json
 *.so
 .ccls*
+*.cache
+.deps
+m4
+*.la
+*.tar.*
+.libs
+INSTALL
+Makefile
+Makefile.in
+aclocal.m4
+config.*
+stamp*
+ar-lib
