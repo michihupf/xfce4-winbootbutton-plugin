@@ -3,7 +3,7 @@
 `grub-reboot <entry>` command.
 
 ## How to install 
-Clone the repository and run:
+Clone the repository and run on Arch Linux:
 
     $ ./configure --prefix="/usr"
 
