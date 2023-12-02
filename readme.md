@@ -3,17 +3,17 @@
 `grub-reboot <entry>` command.
 
 ## How to install 
-Clone the repository and run:
+Clone the repository and run on Arch Linux:
 
     $ ./configure --prefix="/usr"
 
 Other distributions need other arguments:
 
-| Distribution | `./configure <args>`                                 |
-|--------------|------------------------------------------------------|
-| Ubuntu       | --prefix="/usr" --libdir="/usr/lib/x86_64-linux-gnu" |
-| Fedora 24    | --prefix="/usr" --libdir="/usr/lib64"                |
-| Other        | depends on plugin folder location                    |
+| Distribution | `./configure <args>`                                   |
+|--------------|--------------------------------------------------------|
+| Ubuntu       | `--prefix="/usr" --libdir="/usr/lib/x86_64-linux-gnu"` |
+| Fedora 24    | `--prefix="/usr" --libdir="/usr/lib64"`                |
+| Other        | depends on plugin folder location                      |
 
 Install the plugin to your plugins folder by running 
 
